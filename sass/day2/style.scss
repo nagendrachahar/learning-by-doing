@@ -1,0 +1,15 @@
+.main{
+    background-color:green;
+	h1,p{
+	color:red;
+	font:{
+	family:arial;
+	size: 20px;
+	waight: bold;
+	variant: small-caps;
+	}
+	}
+	&:hover{
+	background-color:yellow;
+	}
+}
